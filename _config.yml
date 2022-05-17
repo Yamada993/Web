@@ -1,7 +1,7 @@
 # Site settings 配置站点
-title: 'your awesome title'
+title: 'Yamada@web'
 description: 'your web description'
-keywords: 'your web keywords, another keywords'
+keywords: 'yamada,Yamada,elf,山田'
 url: 'https://www.elfyamada.xyz' # your host
 
 # nav 中文字符空格：&emsp;
@@ -10,7 +10,8 @@ nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
   标签: '/tags.html'
   时间线: '/timeline.html'
   关于博主: '/about.html'
-  友情链接: '/friendLink.html'
+  🔍搜索: '/'
+  #友情链接: '/friendLink.html'
 
 # 博主
 author: true
@@ -26,7 +27,7 @@ portraits: '/assets/profile.jpeg' # your portraits image file path
 SNS: true
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
   mail: 'mailto:1518736370@qq.com'
-  weixin: '/assets/weixing.jpg' # 你的微信二维码存放的地址
+  weixin: '/assets/weixing.png' # 你的微信二维码存放的地址
   qq: 'http://wpa.qq.com/msgrd?v=3&uin=1518736370&site=qq&menu=yes' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
   github: 'https://github.com/Yamada993'
   #Codepen: ''
@@ -63,11 +64,11 @@ friends:
 
 # 评论 最佳体验 在disqus、livere和Gitment之间三选一
 # disqus 评论
-disqus: false
-disqus_url: '' # https://abc.disqus.com/embed.js
+disqus: true
+disqus_url: 'https://www-elfyamada-xyz.disqus.com/embed.js' # https://abc.disqus.com/embed.js
 # 来必力评论
-livere: true
-livere_uid: 'MTAyMC8zNDI2OS8xMDgwNg==' # MTAyMC8zNDI2OS8xMDgwNg==
+livere: false
+livere_uid: 'MTAyMC81NjQyOS8zMjg5Mg==' # MTAyMC8zNDI2OS8xMDgwNg==
 # Gitment评论 OAuth Application
 Gitment: false
 Gitment_owner: ''  # github用户名
