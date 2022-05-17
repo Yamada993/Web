@@ -1,46 +1,44 @@
 # Site settings 配置站点
-title: 'Yamada@web'
-description: 'Yamada'
-keywords: 'yamada,Yamada,elf,山田'
-url: 'https://www.elfyamada.xyz' # your host
+title: 'your awesome title'
+description: 'your web description'
+keywords: 'your web keywords, another keywords'
+url: 'https://abc.github.io' # your host
 
 # nav 中文字符空格：&emsp;
 nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
   首页: '/'
-  公告: '/' 
   标签: '/tags.html'
   时间线: '/timeline.html'
   关于博主: '/about.html'
-  🔍搜索: '/'
-  #友情链接: '/friendLink.html'
+  友情链接: '/friendLink.html'
 
 # 博主
 author: true
-name: '山田エルフ'
-NickName: 'Yamada'
-webtitle: 'Yamada's Web'
-bio: 'QQ:1518736370'
+name: 'your awesome name'
+NickName: 'your awesome nickname'
+webtitle: 'your awesome webtitle'
+bio: 'your awesome bio'
 about: true
-aboutyou: '测试阶段，如有问题通过下方联系。'
+aboutyou: 'your introduction'
 portraits: '/assets/profile.jpeg' # your portraits image file path
 
 # SNS
 SNS: true
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
-  mail: 'mailto:1518736370@qq.com'
-  weixin: '/assets/weixing.png' # 你的微信二维码存放的地址
-  qq: 'http://wpa.qq.com/msgrd?v=3&uin=1518736370&site=qq&menu=yes' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
-  github: 'https://github.com/Yamada993'
-  #Codepen: ''
-  #weibo: ''
-  #instagram: ''
-  #Twitter: ''
-  #Dribbble: ''
-  #Facebook: ''
-  #Google: ''
-  #zhihu: ''
-  #juejin: ''
-  #twitch: ''
+  mail: 'mailto:abc@gmail.com'
+  weixin: '' # 你的微信二维码存放的地址
+  qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
+  github: ''
+  Codepen: ''
+  weibo: ''
+  instagram: ''
+  Twitter: ''
+  Dribbble: ''
+  Facebook: ''
+  Google: ''
+  zhihu: ''
+  juejin: ''
+  twitch: ''
 
 # 分页
 paginate: 2
@@ -48,7 +46,7 @@ paginatepath: ['page:num']
 
 # since
 footer:
-  since: 2022
+  since: 2018
 
 # Markdown
 markdown: kramdown
@@ -66,10 +64,10 @@ friends:
 # 评论 最佳体验 在disqus、livere和Gitment之间三选一
 # disqus 评论
 disqus: false
-disqus_url: 'https://www-elfyamada-xyz.disqus.com/embed.js' # https://abc.disqus.com/embed.js
+disqus_url: '' # https://abc.disqus.com/embed.js
 # 来必力评论
 livere: true
-livere_uid: 'MTAyMC81NjQyOS8zMjg5Mg==' # MTAyMC8zNDI2OS8xMDgwNg==
+livere_uid: 'MTAyMC8zNDI2OS8xMDgwNg==' # MTAyMC8zNDI2OS8xMDgwNg==
 # Gitment评论 OAuth Application
 Gitment: false
 Gitment_owner: ''  # github用户名
@@ -83,7 +81,7 @@ social-share-items: ['qq', 'wechat', 'weibo', 'twitter', 'facebook']
 
 # 百度统计 在baidu-url里填写自己相关的url代码
 baidu: true
-baidu-url: 'c0258c6ee8eec0ce9d405c936cd7c915'
+baidu-url: ''
 # 谷歌分析 在google-ID里填写自己在谷歌分析获得的追踪ID
 google: false
 google-ID: ''
