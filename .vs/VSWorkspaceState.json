@@ -4,11 +4,12 @@
     "\\assets",
     "\\assets\\css",
     "\\assets\\css\\pygments",
+    "\\assets\\js",
     "\\_includes",
     "\\_layouts",
     "\\_plugins",
     "\\_posts"
   ],
-  "SelectedNode": "\\_includes\\comment.html",
+  "SelectedNode": "\\_includes\\post-header.html",
   "PreviewInSolutionExplorer": false
 }
