@@ -1,6 +1,6 @@
 # Site settings 配置站点
-title: 'Yamada@web'
-description: 'your web description'
+#title: 'Yamada@web'
+#description: 'your web description'
 keywords: 'yamada,Yamada,elf,山田'
 url: 'https://www.elfyamada.xyz' # your host
 
