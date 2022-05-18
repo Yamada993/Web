@@ -8,25 +8,6 @@
 <body>
 <!-- 页面主体 -->
 {{ content }}
-
-<!-- HTML elements for search -->
-<input type="text" id="search-input" placeholder="Search blog posts..">
-<ul id="results-container"></ul>
-
-<!-- or without installing anything -->
-<script src="/js/simple-jekyll-search.min.js"></script>
-<script>
-    SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        json: '/search.json',
-        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
-        noResultsText: '没有搜索到文章',
-        limit: 20,
-        fuzzy: false
-      })
-</script>
-
 <!-- 引用wow.js的动画效果 -->
 <script src="/assets/js/wow.js"></script>
 <script>
@@ -47,6 +28,19 @@
         document.body.scrollTop = 0;  //非ie
     }
 </script>
-
 </body>
+<!-- For blog search, @see https://github.com/christian-fei/Simple-Jekyll-Search -->
+<script src="/js/simple-jekyll-search.min.js"></script>
+<script>
+    window.simpleJekyllSearch = new SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search.json',
+        searchResultTemplate: '<li><a href="{url}" title="{title}" style="">{title}</a></li>',
+        noResultsText: 'No results found',
+        limit: 12,
+        fuzzy: true,
+        exclude: ['Welcome']
+    })
+</script>
 </html>
