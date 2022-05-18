@@ -14,7 +14,18 @@
 <ul id="results-container"></ul>
 
 <!-- or without installing anything -->
-<script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+<script src="/js/simple-jekyll-search.min.js"></script>
+<script>
+    SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search.json',
+        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+        noResultsText: '没有搜索到文章',
+        limit: 20,
+        fuzzy: false
+      })
+</script>
 
 <!-- 引用wow.js的动画效果 -->
 <script src="/assets/js/wow.js"></script>
