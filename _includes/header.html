@@ -3,12 +3,13 @@
       <div class="logo">
           <a href="{{ "/" | relative_url }}" title="my awesome webtitle">{{ site.webtitle }}</a>
       </div>
-      <li class="search-container" id="search-container">
-        <input class="search-input" type="text" id="search-input" placeholder="search...">
-        <ul class="search-result-container" id="results-container"></ul>
-      </li>
+
       <nav class="top-nav">
           <ul>
+              <li class="search-container" id="search-container">
+                <input class="search-input" type="text" id="search-input" placeholder="search...">
+                <ul class="search-result-container" id="results-container"></ul>
+              </li>
               {% for i in site.nav %}
                 <li><a href="{{ i[1] }}">{{ i[0] }}</a></li>
               {% endfor %}
