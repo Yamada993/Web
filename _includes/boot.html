@@ -1,9 +1,5 @@
 <div id="boot-area">
     <ul>
-          <li class="search-container" id="search-container">
-            <input class="search-input" type="text" id="search-input" placeholder="search...">
-            <ul class="search-result-container" id="results-container"></ul>
-          </li>
         {% for i in site.nav %}
           <a href="{{ i[1] }}"><li>{{ i[0] }}</li></a>
         {% endfor %}
