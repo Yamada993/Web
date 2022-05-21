@@ -6,13 +6,8 @@ home-title: Let's pick something.
 description:
 ---
 
-<!--添加搜索框-->
-<br/>
-<!-- HTML elements for search -->
-<input type="text" id="search-input" placeholder="搜索博客 - 输入标题/相关内容/日期/Tags.." style="width:380px;"/>
-<ul id="results-container"></ul>
 
-<!-- script pointing to jekyll-search.js -->
+<!-- script pointing to jekyll-search.js 
 <script src="assets/js/simple-jekyll-search.min.js"></script>
 
 <script>
@@ -27,6 +22,7 @@ SimpleJekyllSearch({
   })
 </script>
 <br/>
+-->
 
 <!--....省略下面的代码 -->
 
@@ -35,6 +31,11 @@ SimpleJekyllSearch({
 <main>
     {% include title.html %}
     <ul class="ex-list">
+        <!--添加搜索框-->
+        <br/>
+        <!-- HTML elements for search -->
+        <input type="text" id="search-input" placeholder="搜索博客 - 输入标题/相关内容/日期/Tags.." style="width:380px;"/>
+        <ul id="results-container"></ul>
         <li class="fadeInUp animated">
         {% if site.tags.size>0 %}
             {% for tag in site.tags %}
