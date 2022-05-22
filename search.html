@@ -7,6 +7,8 @@ description:
 ---
 {% include header.html %}
 {% include boot.html %}
+<main>
+  {% include title.html %}
 <h1>Search</h1>
 <!-- HTML elements for search -->
 <p>Keyword: <input type="text" id="search-input" placeholder="Search blog posts.."> <img src="/images/loading.svg" id="search-loading" style="width:22px;vertical-align: bottom"></p>
@@ -43,4 +45,5 @@ $.getJSON("search.json", function(json){
   document.getElementById('search-loading').style.display = "none";
 });
 </script>
+</main>
 {% include footer.html %}
