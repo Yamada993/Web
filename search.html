@@ -15,7 +15,7 @@ description:
 <ul id="results-container"></ul>
 </div>>
 
-<!-- or without installing anything -->
+<!-- or without installing anything 
 <script src="/assets/js/simple-jekyll-search.min.js"></script>
 <script>
 function getQueryVariable(variable)
@@ -34,7 +34,8 @@ var status = false;
 if(mykeyword != null && mykeyword.toString().length>1){
      sbox.value = mykeyword;
 }
-getJSON("search.json", function(json){
+
+$.getJSON("search.json", function(json){
   var sjs = SimpleJekyllSearch({
      searchInput: sbox,
      resultsContainer: document.getElementById('results-container'),
@@ -44,7 +45,7 @@ getJSON("search.json", function(json){
   });
   sjs.search(mykeyword);
   document.getElementById('search-loading').style.display = "none";
-});
+});-->
 </script>
 </main>
 {% include footer.html %}
