@@ -34,8 +34,12 @@ var status = false;
 if(mykeyword != null && mykeyword.toString().length>1){
      sbox.value = mykeyword;
 }
+<<<<<<< HEAD
 
 $.getJSON("search.json", function(json){
+=======
+.getJSON("search.json", function(json){
+>>>>>>> parent of ca93f8a (test)
   var sjs = SimpleJekyllSearch({
      searchInput: sbox,
      resultsContainer: document.getElementById('results-container'),
