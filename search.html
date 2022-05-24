@@ -15,6 +15,20 @@ description:
 <ul id="results-container"></ul>
 </div>>
 
+<!-- For blog search, @see https://github.com/christian-fei/Simple-Jekyll-Search -->
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script>
+    window.simpleJekyllSearch = new SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search.json',
+        searchResultTemplate: '<li><a href="{url}" title="{title}-0" style="">{title}</a></li>',
+        noResultsText: 'No results found',
+        limit: 12,
+        fuzzy: true,
+        exclude: ['Welcome']
+    })
+</script>
  <!-- or without installing anything  
 <script src="/assets/js/simple-jekyll-search.min.js"></script>
 <script>
@@ -44,7 +58,7 @@ if(mykeyword != null && mykeyword.toString().length>1){
   });
   sjs.search(mykeyword);
   document.getElementById('search-loading').style.display = "none";
-});-->
-</script>
+});
+</script>-->
 </main>
 {% include footer.html %}

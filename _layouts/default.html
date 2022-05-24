@@ -29,18 +29,4 @@
     }
 </script>
 </body>
-<!-- For blog search, @see https://github.com/christian-fei/Simple-Jekyll-Search -->
-<script src="/assets/js/simple-jekyll-search.min.js"></script>
-<script>
-    window.simpleJekyllSearch = new SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        json: '/search.json',
-        searchResultTemplate: '<li><a href="{url}" title="{title}-0" style="">{title}</a></li>',
-        noResultsText: 'No results found',
-        limit: 12,
-        fuzzy: true,
-        exclude: ['Welcome']
-    })
-</script>
 </html>
