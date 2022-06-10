@@ -48,6 +48,7 @@ export default class Guide extends React.Component {
           </div>
         </div>
         <div className={`${style.guide} ${style.left}`}>
+          /*
           <p>
             <a href="https://github.com/chvin/react-tetris" rel="noopener noreferrer" target="_blank" title={i18n.linkTitle[lan]}>{`${i18n.github[lan]}:`}</a><br />
             <iframe
@@ -68,6 +69,7 @@ export default class Guide extends React.Component {
               style={{ [transform]: 'scale(1.68)', [`${transform}Origin`]: 'center left' }}
             />
           </p>
+          */
           <div className={style.space}>SPACE</div>
         </div>
         { this.state.QRCode !== '' ? (
