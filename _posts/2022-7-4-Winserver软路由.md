@@ -147,5 +147,3 @@ AP网卡的IP配置跟LAN网卡一样，这里配置成192.168.137.1，掩码依
 
 # 相关连接
 [如何设置路由和远程访问 - Windows Server | Microsoft Docs](https://docs.microsoft.com/zh-cn/troubleshoot/windows-server/networking/set-up-routing-remote-access-intranet)
-* menu
-{:toc}
