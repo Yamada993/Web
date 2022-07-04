@@ -67,8 +67,6 @@ cover: '../assets/winsrv-j3160.png'
 
 > 若你在配置承载网络之前就启用了路由和远程访问服务，那么可能会出现网络接口中没有此虚拟网卡的情况，那么需要你先禁止路由和远程访问服务，先启用承载网络后再启用路由和远程访问服务
 
-[如何设置路由和远程访问 - Windows Server | Microsoft Docs](https://docs.microsoft.com/zh-cn/troubleshoot/windows-server/networking/set-up-routing-remote-access-intranet)
-
 ![image-20220704182854203](/assets/2022-7-4/image-20220704182854203.png)
 
 点击配置并启用路由和远程访问，选择自定义配置，在自定义配置中将选项全选，在弹出的提示框中点击确定，等待服务运行
@@ -146,3 +144,6 @@ AP网卡的IP配置跟LAN网卡一样，这里配置成192.168.137.1，掩码依
 # 完成配置
 
 至此，我们已经配置完成一个软路由所需要的基础功能了。
+
+# 相关连接
+[如何设置路由和远程访问 - Windows Server | Microsoft Docs](https://docs.microsoft.com/zh-cn/troubleshoot/windows-server/networking/set-up-routing-remote-access-intranet)
